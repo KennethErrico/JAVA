@@ -3,11 +3,8 @@ Ken Errico
 11/16/16
 Teller class 2
 
-this second version of teller adds the scanner in a different way 
-but some changes had to be made to the original file so I am attaching both
-this new setup runs on 3 methods consisting of a set, a get, and a print, which
-allows the user to input the tellers name and the date of the transactions
-which is printed before they are made
+Teller adds a scanner which allows the user to input the tellers name 
+and the date of the transactions which are then printed
 */
 
 import java.util.Scanner;
@@ -46,11 +43,8 @@ public class TellerKen2
 	{
 		/*
 		these are my objects each of which draws from previous classes using all
-		methods created from all classes proving that all pieces of this insane puzzle
-		not only compile but do their job as well
-		
-		now with the addition of a scanner intake for the tellers name and the date
-		of the transaction because zybooks 9 is way to freakin hard to figure out
+		methods created proving that all pieces of this program
+		not only compile but do their job as intended
 		*/
 		
 		Scanner in = new Scanner(System.in);
@@ -64,7 +58,7 @@ public class TellerKen2
 		
 		
 		BankAccountKen cust1 = new BankAccountKen("Ken","Errico",
-		"187th Street","Lawrence", "MA", "01830" );
+		"8th Street","Lawrence", "MA", "01830" );
 		cust1.setBalance(5000.00);
 		cust1.setWithdraw(1000);
 		cust1.setDeposit(10);
@@ -73,7 +67,7 @@ public class TellerKen2
 		System.out.println("");
 		
 		CheckingKen cust2 = new CheckingKen("Jamie","Errico",
-		"187th Street","Lawrence", "MA", "01830");
+		"8th Street","Lawrence", "MA", "01830");
 		cust2.setOverdraft();
 		cust2.setBalance(100.00);
 		cust2.setWithdraw(1000);
@@ -82,8 +76,8 @@ public class TellerKen2
 		
 		System.out.println("");
 
-		SavingsKen cust3 = new SavingsKen("Ken","Errico",
-		"187th Street","Lawrence", "MA", "01830" );
+		SavingsKen cust3 = new SavingsKen("John","Errico",
+		"8th Street","Lawrence", "MA", "01830" );
 		cust3.setBalance(6000.00);
 		cust3.setWithdraw(1000);
 		cust3.setDeposit(10);
