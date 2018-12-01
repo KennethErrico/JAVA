@@ -1,8 +1,8 @@
 /*
 Ken Errico
 10/3/16
-Loops lab revised makes all the other loop labs into the
-equivelant of what custom functions were in processing and then calls them at the end
+Loops lab revised combines all the other loop labs into
+custom methods and calls each in the main
 */
 
 public class LoopsLabRevisedKen
