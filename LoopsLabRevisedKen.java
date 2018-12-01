@@ -7,6 +7,8 @@ equivelant of what custom functions were in processing and then calls them at th
 
 public class LoopsLabRevisedKen
 {
+	
+	//starts at 1 and generates a list of the first 10 square numbers a while loop
 	public void WhileSquares()
 	{
 		//assign value to variables
@@ -25,6 +27,7 @@ public class LoopsLabRevisedKen
 		System.out.println("-----------------------------------");
 	}
 
+	//starts at 1 and generates a list of the first 10 square numbers a for loop
 	public void ForSquares()
 	{
 		//assign value to variables
@@ -43,6 +46,7 @@ public class LoopsLabRevisedKen
 		System.out.println("-----------------------------------");
 	}
 
+	//creates a time table grid from 1 -10 using a nested while loop
 	public void WhileTimes()
 	{
 		//assign value to variables
@@ -70,6 +74,7 @@ public class LoopsLabRevisedKen
 		System.out.println("-----------------------------------");
 	}
 
+	//creates a time table grid from 1 -10 using a nested for loop
 	public void ForTimes()
 	{
 		//assign value to variables
@@ -95,6 +100,7 @@ public class LoopsLabRevisedKen
 	System.out.println("-----------------------------------");
 	}
 
+	//generates two random numbers using a do while loop
 	public void DoTwoRandom()
 	{
 		//declares the maximum number to randomize between
@@ -117,7 +123,8 @@ public class LoopsLabRevisedKen
 		System.out.println(random1 + " " + random2);
 		System.out.println("-----------------------------------");
 		}
-
+	
+	//generates six random and different numbers using a do while loop as a lottery would 
 	public void DoLottery()
 	{
 		//declares the maximum number to randomize between
