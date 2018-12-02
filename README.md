@@ -5,14 +5,16 @@ Computer Science I (JAVA)
 Taken with Prof. Kristen Sparrow at NECC 
 
 
+
 CALCULATOR
 
-This calculator program is written in JAVA that utilizes the graphic user interface along
-with performing a long list of operations. In order to program with a gui I imported several 
+This calculator program is written in JAVA and calls utilities to create a graphic user interface 
+along with performing a long list of operations. In order to program with a gui I imported several 
 utilities like swing and awt event. I also extended WindowAdapter which is how I created my 
 sixteen button frame. These buttons are tied to various methods that perform the required 
 mathematical operations. The main is very clean with a simple call to create the object so 
-that each method can be reused for other projects with similar calculations being performed.
+that each method can be reused for other projects that have similar calculations being performed.
+
 
 
 
@@ -24,6 +26,7 @@ The other objects were added later as the need for more options became apparent.
 This allowed me to create a program with maximum re-usability that is much easier
 to troubleshoot than a procedurally written program. The comments are extensive and 
 will thoroughly explain each step.
+
 
 
 
