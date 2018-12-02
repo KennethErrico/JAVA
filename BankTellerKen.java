@@ -1,7 +1,7 @@
 /*
 Ken Errico
 11/16/16
-Teller class 2
+Teller class
 Teller adds a scanner which allows the user to input the tellers name 
 and the date of the transactions which are then printed
 */
